@@ -22,7 +22,7 @@ export type FloorProps = {
 }
 
 export const Floor = ({ color, windowsTint, ...props }: GroupProps & FloorProps) => {
-  const { nodes, materials } = useGLTF('./assets/tower.gltf') as GLTFResult
+  const { nodes, materials } = useGLTF('./3d/tower.gltf') as GLTFResult
   return (
     <group {...props} dispose={null}>
       <mesh castShadow receiveShadow geometry={nodes.Cylinder.geometry}>

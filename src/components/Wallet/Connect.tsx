@@ -1,7 +1,7 @@
 import { Button, Text, Grid } from '@mantine/core'
 import { IconCurrencyEthereum } from '@tabler/icons'
 
-import { ReactComponent as MetaMask } from '@src/images/metamask.svg'
+import { ReactComponent as MetaMask } from '@src/assets/img/metamask.svg'
 
 type Props = {
   onClickHandler: () => void
