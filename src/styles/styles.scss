@@ -10,6 +10,11 @@ body {
   height: 100vh;
 }
 
+.icon-md {
+  width: 24px;
+  height: 24px;
+}
+
 .infinity-tower {
   &-floors {
     position: fixed;
@@ -28,4 +33,19 @@ body {
       background-color: var(--fc-badge-color);
     }
   }
+}
+
+.panel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+}
+
+.wallet {
+  margin-top: auto;
+  margin-bottom: 64px;
+  margin-left: 32px;
 }
